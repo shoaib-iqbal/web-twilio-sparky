@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="org.apache.ant:ant-apache-log4j:1.9.7" type="repository">
+    <properties maven-id="org.apache.ant:ant-apache-log4j:1.9.7" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant-apache-log4j/1.9.7/ant-apache-log4j-1.9.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant/1.9.7/ant-1.9.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant-launcher/1.9.7/ant-launcher-1.9.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.13/log4j-1.2.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant-apache-log4j/1.9.7/ant-apache-log4j-1.9.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant/1.9.7/ant-1.9.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant-launcher/1.9.7/ant-launcher-1.9.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.13/log4j-1.2.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant-apache-log4j/1.9.7/ant-apache-log4j-1.9.7-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant-apache-log4j/1.9.7/ant-apache-log4j-1.9.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
