@@ -1,8 +1,6 @@
-# IP Messaging Quickstart for Java
+# Introduction
 
-This application should give you a ready-made starting point for writing your
-own video chatting apps with Twilio Video. Before we begin, we need to collect
-all the credentials we need to run the application:
+This application should give you a ready-made starting point for generating token that can be used by clients to make use of Twilio video calls. Please visit your twilio account and gather the following information:
 
 Credential | Description
 ---------- | -----------
@@ -22,27 +20,30 @@ or possibly your `~/.bash_profile`.
 This application uses the lightweight [Spark Framework](www.sparkjava.com), and
 requires Java 8 and [Maven](https://maven.apache.org/install.html). 
 
-Begin by creating a configuration file for your application:
+The server parses your twilio credentials at runtime from the following environmen variables:
+```
+ACCOUNT_SID="Your Twilio Account SID"
+VIDEO_CONFIGURATION_SID="Your Twilio Video Configuration SID"
+API_KEY="Your API Key"
+API_SECRET="Your API Secret"
+```
+To facilitate the setup, we have provided the file `.env_config.example`
+
+Please fill in the afore mentioned values (you get them from your Twilio account as outlined above) and rename the file to `.env_config` (that file has already been added to the .gitignore). 
+
+To load the environment variables defined in that file we'll source the file:
 
 ```bash
-cp .env.example .env
+source .env_config
 ```
 
-Edit `.env` with the four configuration parameters we gathered from above. Export
-the configuration in this file as system environment variables like so on Unix
-based systems:
-
-```bash
-source .env
-```
-
-Next, we need to install our depenedencies from Maven:
+Next, we need to install our depenedencies from Maven (you only need to do this once):
 
 ```bash
 mvn install
 ```
 
-And compile our application code:
+And compile our application code (this needs to be done each time you change the server code):
 
 ```bash
 mvn package
@@ -53,13 +54,10 @@ Now we should be all set! Run the application using the `java -jar` command.
 ```bash
 java -jar target/video-quickstart-1.0-SNAPSHOT.jar
 ```
+Or simply use the script we provided and call `./start-sparky.sh`
 
 Your application should now be running at [http://localhost:4567](http://localhost:4567). 
-Open this page in a couple browsers or tabs, and start video chatting!
-
-Everything you need to know about the coresystem setup for this server is explained [here](https://confluence.coresystems.ch/display/cloud/ODG+Smartglasses+%28ReticleOS%29+and+RemoteExpert).
-
-![screenshot of chat app](http://i.imgur.com/nVR70FQ.png)
+If you open the URL in a browser you should see the video calling interface, however at the moment authenticating via the webbrowser is not supported within this implementation. You can however easily add it, if you provide the required credentials (username, account etc).
 
 ## License
 
