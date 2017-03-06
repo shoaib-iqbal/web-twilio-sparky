@@ -56,6 +56,10 @@ java -jar target/video-quickstart-1.0-SNAPSHOT.jar
 ```
 Or simply use the script we provided and call `./start-sparky.sh`
 
+## Changing Twilio credentials
+
+You should be able to change the twilio credentials while the server is running, by simply updating the `.env_config` and sourcing it again, since we're not caching the envirnment variables but instead read them again each time.
+
 Your application should now be running at [http://localhost:4567](http://localhost:4567). 
 If you open the URL in a browser you should see the video calling interface, however at the moment authenticating via the webbrowser is not supported within this implementation. You can however easily add it, if you provide the required credentials (username, account etc).
 
