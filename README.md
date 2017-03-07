@@ -12,10 +12,9 @@ API Secret | Used to authenticate - [just like the above, you'll get one here](h
 ## A Note on API Keys
 
 When you generate an API key pair at the URLs above, your API Secret will only
-be shown once - make sure to save this in a secure location, 
-or possibly your `~/.bash_profile`.
+be shown once - make sure to save this in a secure location.
 
-## Setting Up The Java Application
+## Setting up The Java Application
 
 This application uses the lightweight [Spark Framework](www.sparkjava.com), and
 requires Java 8 and [Maven](https://maven.apache.org/install.html). 
@@ -27,7 +26,7 @@ VIDEO_CONFIGURATION_SID="Your Twilio Video Configuration SID"
 API_KEY="Your API Key"
 API_SECRET="Your API Secret"
 ```
-To facilitate the setup, we have provided the file `.env_config.example`
+To facilitate the setup, we have provided a file named `.env_config.example`
 
 Please fill in the afore mentioned values (you get them from your Twilio account as outlined above) and rename the file to `.env_config` (that file has already been added to the .gitignore). 
 
