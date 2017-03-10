@@ -1,3 +1,7 @@
+| **ATTENTION**: | This project is currently in development and is subject to change. Coresystems takes no responsibility for any issues that may occur in the implementation and/or operation. Additonally, no direct support can be offered or given. | 
+
+---
+
 # Introduction
 
 This application should give you a ready-made starting point for generating token that can be used by clients to make use of Twilio video calls. Please visit your twilio account and gather the following information:
