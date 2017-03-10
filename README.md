@@ -1,4 +1,4 @@
-| **ATTENTION**: | This project is currently in development and is subject to change. Coresystems takes no responsibility for any issues that may occur in the implementation and/or operation. Additonally, no direct support can be offered or given. | 
+> **ATTENTION**: This project is currently in development and is subject to change. Coresystems takes no responsibility for any issues that may occur in the implementation and/or operation. Additonally, no direct support can be offered or given.  
 
 ---
 
